@@ -13,11 +13,10 @@ I haven't (yet) published this on NPM. If I do, then you won't even have to clon
 ##Usage
 First make your google spreadsheet public on the web. Do that by "publishing" the spreadsheet on the web (file > publish to the web) *and* sharing the sheet with the public.
 
-You
-
 In the terminal, simply run:
 
     dldoc --key <spreadsheet URL> --output <filename>`
+		
 An example:
 
     dldoc --key https://docs.google.com/spreadsheets/u/1/d/1jqcH2h3ka0Mzrcp75xHvlt4d2onds0GMqJzsRvgwcyI/edit#gid=0 --output myFile
