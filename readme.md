@@ -3,12 +3,15 @@ A command line tool that takes a public google spreadsheet URL and outputs a nic
 This probably exists somewhere on NPM but I wanted to learn how to write a CLI tool with Node.
 
 ##Installation
-From the root project directory simply return
-`npm link`
+From the root project directory simply run this command in your terminal:
+
+    npm link
+
 This will put the tool in your PATH, allowing you to call it anywhere.
 
 I haven't (yet) published this on NPM. If I do, then you won't even have to clone this repo. You'll simply run:
-`npm install -g dl-docs`
+
+    npm install -g dl-docs
 
 ##Usage
 First make your google spreadsheet public on the web. Do that by "publishing" the spreadsheet on the web (file > publish to the web) *and* sharing the sheet with the public.
@@ -16,7 +19,7 @@ First make your google spreadsheet public on the web. Do that by "publishing" th
 In the terminal, simply run:
 
     dldoc --key <spreadsheet URL> --output <filename>`
-		
+
 An example:
 
     dldoc --key https://docs.google.com/spreadsheets/u/1/d/1jqcH2h3ka0Mzrcp75xHvlt4d2onds0GMqJzsRvgwcyI/edit#gid=0 --output myFile
