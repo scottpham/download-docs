@@ -31,9 +31,7 @@ var table = tabletop.init({
 			return newObj;
 		});
 
-		var fileName = path.join(__dirname, file);
-
-		io.writeDataSync(fileName, json);
+		io.writeDataSync(file, json);
 
 	},
 	simpleSheet: true
