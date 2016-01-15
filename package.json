@@ -1,0 +1,21 @@
+{
+  "name": "dl-docs",
+  "version": "1.0.0",
+  "description": "Downloads a google doc in JSON format",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Pham",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "dldoc": "index.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "indian-ocean": "^1.0.3",
+    "parse-ft-spreadsheet-key": "^1.0.3",
+    "path": "^0.12.7",
+    "tabletop": "^1.4.2"
+  }
+}
