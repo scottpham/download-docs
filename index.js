@@ -10,7 +10,6 @@ var pkg = require(path.join(__dirname, 'package.json'));
 
 program
 	.version(pkg.version)
-	.command('*')
 	.usage('[options]')
 	//short form, longform <type>, "documentation", coerce
 	.option('-o, --output <string>', "filename w/out extension", "output")
