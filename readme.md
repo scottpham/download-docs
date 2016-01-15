@@ -16,9 +16,12 @@ First make your google spreadsheet public on the web. Do that by "publishing" th
 You
 
 In the terminal, simply run:
-`dldoc --key <spreadsheet URL> --output <filename>`
+
+    dldoc --key <spreadsheet URL> --output <filename>`
 An example:
-`dldoc --key https://docs.google.com/spreadsheets/u/1/d/1jqcH2h3ka0Mzrcp75xHvlt4d2onds0GMqJzsRvgwcyI/edit#gid=0 --output myFile`
+
+    dldoc --key https://docs.google.com/spreadsheets/u/1/d/1jqcH2h3ka0Mzrcp75xHvlt4d2onds0GMqJzsRvgwcyI/edit#gid=0 --output myFile
+
 This will create a file called `myFile.json` in your current directory.
 
 Easy as that!
@@ -26,5 +29,9 @@ Easy as that!
 ##Options
 - You can use short flags like `-k` in place of `--key` or `-o` in place of `--output`
 - You can specify the keys in any order
-- You can specify the full google spreadsheet URL, or the proper "key" which will look something like `1jqcH2h3ka0Mzrcp75xHvlt4d2onds0GMqJzsRvgwcyI`. Both are fine.
+- You can specify the full google spreadsheet URL, or the proper "key" which will look something like
+
+        1jqcH2h3ka0Mzrcp75xHvlt4d2onds0GMqJzsRvgwcyI
+    Both are fine.
+
 - You do not have to specify a filename (the key is always necessary)
